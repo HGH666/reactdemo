@@ -6,11 +6,11 @@ function Home() {
         <div className="home">
            <header>
                <div>
-                   <img src="" alt=""/>
+                   <img src="../img/logo.svg" alt="logo"/>
                </div>
            </header>
         </div>
-    );
+    )
 }
 
 export default Home;
