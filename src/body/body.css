@@ -12,9 +12,6 @@ header {
     text-align: center;
 }
 
-.body {
-    background: #f0f2f5;
-}
 
 .body-main {
     display: flex;

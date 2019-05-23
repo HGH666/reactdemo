@@ -20,6 +20,7 @@
     color: #b1b2a6;
     background: #f7fcff;
     margin-bottom: 30px;
+    line-height: 1.8;
 }
 
 .shop {
@@ -73,6 +74,27 @@
 
 .back{
     color: white;
-    background: #4fc08d;
+    background: #4fc08d !important;
 }
 /*购物车头部样式结束*/
+/*购物车下半部分样式*/
+.content-bottom{
+    padding: 18px;
+    margin-bottom: 30px;
+}
+.content-bottom>h2{
+    color: #b1b2a6;
+    font-size: 18px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+.content-bottom>h3{
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.content-bottom>p{
+    color: #b1b2a6;
+    font-size: 14px;
+    margin-bottom: 25px;
+}

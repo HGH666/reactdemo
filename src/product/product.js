@@ -4,7 +4,7 @@ import diq from "../img/diq.png";
 import laba from "../img/laba.png";
 import qiche from "../img/qiche.png";
 import shanf from "../img/shanf.png";
-
+import {Link} from 'react-router-dom';
 
 class Product extends React.Component{
     render() {
@@ -15,7 +15,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn">立即购买</div>
+                        <div className="btn"><Link to="/home/body"> 立即购买 </Link></div>
                     </div>
                 </div>
                 <div className="product-list">
@@ -23,7 +23,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn">立即购买</div>
+                        <div className="btn"><Link to="/home/body"> 立即购买 </Link></div>
                     </div>
                 </div>
                 <div className="product-list">
@@ -31,7 +31,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn">立即购买</div>
+                        <div className="btn"><Link to="/home/body"> 立即购买 </Link></div>
                     </div>
                 </div>
                 <div className="product-list">
@@ -39,7 +39,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn">立即购买</div>
+                        <div className="btn"><Link to="/home/body"> 立即购买 </Link></div>
                     </div>
                 </div>
             </div>
