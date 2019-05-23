@@ -9,13 +9,13 @@
     width: 270px;
 }
 
-.silde-top {
+.sildetop {
     border-radius: 0 0 10px 10px;
     overflow: hidden;
 
 }
 
-.silde-title {
+.sildetitle {
     background: #4fc08d;
     height: 34px;
     line-height: 34px;
@@ -25,40 +25,32 @@
 
 }
 
-.silde-list {
+:global(.sildelist){
     padding-bottom: 4px;
     border-bottom: 1px #f0f2f5 solid;
     background: #fff;
-}
-
-.silde-list > h2 {
+    h2 {
     padding: 22px 0 22px 15px;
     font-size: 14px;
     font-weight: 800;
 
 }
-
-.silde-list > ul > li {
-
-    padding-bottom: 12px;
-
-    padding-left: 20px;
-    font-size: 14px;
-
+    ul > li {
+        padding-bottom: 12px;
+        padding-left: 20px;
+        font-size: 14px;
+    }
 }
 
-.silde-bom {
+.sildebom {
     margin-top: 15px;
-
     border-radius: 0 0 10px 10px;
-
     overflow: hidden;
-
+    :global(.sildelist){
+        padding-top: 36px;
+        box-sizing: border-box;
+        height: 478px;
+    }
 }
 
-.silde-bom > .silde-list {
-    padding-top: 36px;
-    box-sizing: border-box;
-    height: 478px;
-}
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import './main.css';
+import styles from './main.module.scss';
 import Lunbo from '../swiper/swiper'
 import Product from "../product/product";
 
@@ -11,11 +11,11 @@ class Main extends React.Component {
 
     render() {
         return(
-            <div className="main">
-                <div className="silde">
-                    <div className="silde-top">
-                        <h1 className="silde-title">全部产品</h1>
-                        <div className="silde-list">
+            <div className= {styles.main}>
+                <div className={styles.silde}>
+                    <div className={styles.sildetop}>
+                        <h1 className={styles.sildetitle}>全部产品</h1>
+                        <div className="sildelist">
                             <h2>PC产品</h2>
                             <ul>
                                 <li>撒发射点</li>
@@ -24,7 +24,7 @@ class Main extends React.Component {
                                 <li>撒发射点</li>
                             </ul>
                         </div>
-                        <div className="silde-list">
+                        <div className="sildelist">
                             <h2>手机应用类</h2>
                             <ul>
                                 <li>撒发射点</li>
@@ -34,9 +34,9 @@ class Main extends React.Component {
                             </ul>
                         </div>
                     </div>
-                    <div className="silde-bom">
-                        <h1 className="silde-title">最新消息</h1>
-                        <div className="silde-list ">
+                    <div className={styles.sildebom}>
+                        <h1 className={styles.sildetitle}>最新消息</h1>
+                        <div className="sildelist">
                             <ul>
                                 <li>烧录卡就是打开房间埃里克森</li>
                                 <li>撒发射点</li>
