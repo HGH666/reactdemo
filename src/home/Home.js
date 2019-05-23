@@ -1,14 +1,15 @@
 import React from 'react';
 import './Home.css';
+import Myheader from "../myHeader/myheader";
+import Main from "../main/main"
+import Body from "../body/body"
 
 function Home() {
     return (
         <div className="home">
-           <header>
-               <div>
-                   <img src="../img/logo.svg" alt="logo"/>
-               </div>
-           </header>
+            <Myheader/>
+            <Main />
+            <footer>Hgh & Yang联合出品</footer>
         </div>
     )
 }

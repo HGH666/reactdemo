@@ -1,0 +1,64 @@
+.main {
+    margin: 20px auto 0;
+    width: 987px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.silde {
+    width: 270px;
+}
+
+.silde-top {
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+
+}
+
+.silde-title {
+    background: #4fc08d;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 14px;
+
+}
+
+.silde-list {
+    padding-bottom: 4px;
+    border-bottom: 1px #f0f2f5 solid;
+    background: #fff;
+}
+
+.silde-list > h2 {
+    padding: 22px 0 22px 15px;
+    font-size: 14px;
+    font-weight: 800;
+
+}
+
+.silde-list > ul > li {
+
+    padding-bottom: 12px;
+
+    padding-left: 20px;
+    font-size: 14px;
+
+}
+
+.silde-bom {
+    margin-top: 15px;
+
+    border-radius: 0 0 10px 10px;
+
+    overflow: hidden;
+
+}
+
+.silde-bom > .silde-list {
+    padding-top: 36px;
+    box-sizing: border-box;
+    height: 478px;
+}
+
