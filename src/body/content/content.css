@@ -1,0 +1,78 @@
+/*home右侧样式*/
+.content {
+    width: 980px;
+}
+
+/*购物车头部样式*/
+.content-top {
+    background: white;
+    margin-bottom: 20px;
+}
+
+.content-top > h2 {
+    font-weight: 400;
+    padding: 20px;
+}
+
+.content-top > p {
+    padding: 18px 20px;
+    font-size: 12px;
+    color: #b1b2a6;
+    background: #f7fcff;
+    margin-bottom: 30px;
+}
+
+.shop {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.shop > ul > li {
+    height: 27px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+}
+
+.shop > ul > li > input {
+    padding: 0 10px;
+    height: 25px;
+    background: none;
+    border: 1px solid #b1b2a6;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.count-inp > input {
+    width: 25px;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin-right: 0 !important;
+}
+
+#inp {
+    width: 30px;
+    height: 23px;
+}
+
+.content-bottom {
+    background: white;
+    margin-bottom: 30px;
+}
+
+.rButton{
+    height: 34px;
+    line-height: 34px;
+    padding:0 20px;
+    margin-left: 124px;
+    margin-bottom: 52px;
+    border: none;
+    border-radius: 3px;
+}
+
+.back{
+    color: white;
+    background: #4fc08d;
+}
+/*购物车头部样式结束*/
