@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13ef1fa5-74eb-4f35-bcd8-66185f992709" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myHeader/myheader.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/myHeader/myheader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/myHeader/myheader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/myHeader/myheader.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -68,20 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/main.module.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="398" column="29" lean-forward="true" selection-start-line="398" selection-start-column="29" selection-end-line="398" selection-end-column="29" />
+            <state relative-caret-position="401">
+              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -252,7 +226,7 @@
       <workItem from="1558510465054" duration="9620000" />
       <workItem from="1558573710139" duration="8531000" />
       <workItem from="1558583745985" duration="3595000" />
-      <workItem from="1558595974395" duration="5681000" />
+      <workItem from="1558595974395" duration="6328000" />
     </task>
     <task id="LOCAL-00001" summary="gengx">
       <created>1558584184135</created>
@@ -275,13 +249,20 @@
       <option name="project" value="LOCAL" />
       <updated>1558596965800</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gengx">
+      <created>1558601822012</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558601822012</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27689000" />
+    <option name="totallyTimeSpent" value="28336000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -292,8 +273,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.5756824" visible="true" weight="0.15587847" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5756824" visible="true" weight="0.15587847" />
       <window_info id="Structure" order="1" sideWeight="0.15865384" side_tool="true" weight="0.15587847" />
       <window_info id="Favorites" order="2" sideWeight="0.15865384" side_tool="true" weight="0.15587847" />
       <window_info id="npm" order="3" sideWeight="0.42431763" side_tool="true" weight="0.15587847" />
@@ -311,7 +293,7 @@
       <window_info anchor="bottom" id="运行" order="11" sideWeight="0.4993395" weight="0.3243626" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="找到" order="13" />
-      <window_info active="true" anchor="bottom" id="消息" order="14" sideWeight="0.4993395" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="消息" order="14" sideWeight="0.4993395" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,17 +378,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/main.module.scss">
+    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        <state relative-caret-position="140">
+          <caret line="159" column="9" selection-start-line="159" selection-start-column="9" selection-end-line="159" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/src/main/main.module.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="398" column="29" lean-forward="true" selection-start-line="398" selection-start-column="29" selection-end-line="398" selection-end-column="29" />
+        <state relative-caret-position="401">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
