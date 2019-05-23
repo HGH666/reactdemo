@@ -6,7 +6,7 @@ function Body() {
     return (
         <div className="body">
             <header>头部组件</header>
-            <div className="main">
+            <div className="body-main">
                 {/*左侧列表*/}
                 <div className="left-list">
                     <div className="img">img</div>
