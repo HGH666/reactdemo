@@ -25,7 +25,7 @@ class Lunbo extends React.Component {
     }
     render() {
         return (
-            <div className="App">
+            <div className={}>
                 <div className="swiper-container" >
                     <div className="swiper-wrapper" >
                         <div className="swiper-slide"><img src={img1} width="700px" height="300px" /></div>
