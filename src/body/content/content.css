@@ -62,38 +62,42 @@
     margin-bottom: 30px;
 }
 
-.rButton{
+.rButton {
     height: 34px;
     line-height: 34px;
-    padding:0 20px;
+    padding: 0 20px;
     margin-left: 124px;
     margin-bottom: 52px;
     border: none;
     border-radius: 3px;
 }
 
-.back{
+.back {
     color: white;
     background: #4fc08d !important;
 }
+
 /*购物车头部样式结束*/
 /*购物车下半部分样式*/
-.content-bottom{
+.content-bottom {
     padding: 18px;
     margin-bottom: 30px;
 }
-.content-bottom>h2{
+
+.content-bottom > h2 {
     color: #b1b2a6;
     font-size: 18px;
     margin-bottom: 24px;
     font-weight: 400;
 }
-.content-bottom>h3{
+
+.content-bottom > h3 {
     font-weight: 800;
     font-size: 18px;
     margin-bottom: 16px;
 }
-.content-bottom>p{
+
+.content-bottom > p {
     color: #b1b2a6;
     font-size: 14px;
     margin-bottom: 25px;

@@ -10,7 +10,7 @@ import img4 from "../img/4.jpg";
 class Lunbo extends React.Component {
     componentDidMount ()
     {
-        var mySwiper = new Swiper('.swiper-container', {
+       new Swiper('.swiper-container', {
             autoplay: true,
             loop: true,
             navigation: {
@@ -28,10 +28,10 @@ class Lunbo extends React.Component {
             <div className="App">
                 <div className="swiper-container" >
                     <div className="swiper-wrapper" >
-                        <div className="swiper-slide"><img src={img1} width="700px" height="300px" /></div>
-                        <div className="swiper-slide"><img src={img2} width="700px" height="300px" /></div>
-                        <div className="swiper-slide"><img src={img3} width="700px" height="300px" /></div>
-                        <div className="swiper-slide"><img src={img4} width="700px" height="300px" /></div>
+                        <div className="swiper-slide"><img src={img1} alt="" width="700px" height="300px" /></div>
+                        <div className="swiper-slide"><img src={img2} alt="" width="700px" height="300px" /></div>
+                        <div className="swiper-slide"><img src={img3} alt="" width="700px" height="300px" /></div>
+                        <div className="swiper-slide"><img src={img4} alt="" width="700px" height="300px" /></div>
                     </div>
                     <div className='swiper-pagination'></div>
                     <div className="swiper-button-prev swiper-button-white"></div>

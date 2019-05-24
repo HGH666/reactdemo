@@ -1,5 +1,6 @@
 import React from "react";
 import "./content.css"
+import Masking from "./masking.js"
 
 class Content extends React.Component {
     constructor(props) {
@@ -70,6 +71,7 @@ class Content extends React.Component {
                     </div>
                     <button className="rButton back"> 立即购买</button>
                 </div>
+                <Masking></Masking>
                 <div className="content-bottom">
                     <h2>产品说明</h2>
                     <p>啊受打击啊啥的看哈数据库的哈就开始大家啊手机打开是打卡时间肯定会啊手机客户端金卡圣诞节卡是捷克的按时可见度</p>
@@ -104,9 +106,10 @@ class Content extends React.Component {
 
     mydel(e) {
         Array.from(e.target.parentNode.childNodes).map((item) => {
-            item.classList.remove('back')
+            item.classList.remove('back');
+            return 0;
         })
-        return;
+        return ;
     }
 }
 

@@ -5,10 +5,6 @@ import Product from "../product/product";
 
 
 class Main extends React.Component {
-    constructor(props){
-        super(props)
-    }
-
     render() {
         return(
             <div className= {styles.main}>
