@@ -471,7 +471,7 @@ module.exports = function(webpackEnv) {
             {
 
               test:/\.scss$/,
-              loaders:['style-loader','css-loader','sass-loader?modules']
+              loaders:['style-loader','css-loader?modules','sass-loader']
 
             }
             // ** STOP ** Are you adding a new loader?

@@ -1,13 +1,15 @@
 import React from 'react';
-import {HashRouter, Route, Switch} from 'react-router-dom';
-import Home from './home/Home.js';
+import {HashRouter, Route, Switch,Redirect} from 'react-router-dom';
+import Main from "./main/main";
+import Body from "./body/body";
 
 
 const BasicRoute = () => (
     <HashRouter>
         <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/home" component={Home}/>
+            <Route path='/home/main' component={Main}></Route>
+            <Route path='/home/body' component={Body}></Route>
+            <Redirect to="/home/main" />
         </Switch>
     </HashRouter>
 )

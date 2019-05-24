@@ -106,7 +106,7 @@ class Content extends React.Component {
         Array.from(e.target.parentNode.childNodes).map((item) => {
             item.classList.remove('back')
         })
-        return ;
+        return;
     }
 }
 
