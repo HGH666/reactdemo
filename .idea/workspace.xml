@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13ef1fa5-74eb-4f35-bcd8-66185f992709" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/src/body/laba.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/body/qiche.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/body/shanf.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/body.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/body.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/body.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/content/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/content/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/content/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/body/content/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/content/masking.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/body/content/masking.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,15 +23,6 @@
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/home/Home.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -86,11 +66,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/body/shanf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+            <state relative-caret-position="171">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/swiper/swiper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/body/masking.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,6 +195,19 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="body" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="yang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="body" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yang" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yang" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="swiper" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +277,7 @@
       <workItem from="1558659838202" duration="781000" />
       <workItem from="1558682558232" duration="7000" />
       <workItem from="1558847250094" duration="3826000" />
-      <workItem from="1558918868742" duration="8369000" />
+      <workItem from="1558918868742" duration="8610000" />
     </task>
     <task id="LOCAL-00001" summary="gengx">
       <created>1558594501791</created>
@@ -266,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558594501791</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="gengx">
+      <created>1558943952516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558943952516</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39860000" />
+    <option name="totallyTimeSpent" value="40101000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,13 +309,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="279" y="0" width="1244" height="788" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.83114034" visible="true" weight="0.19536424" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8320158" visible="true" weight="0.15587847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="npm" order="3" sideWeight="0.16885965" side_tool="true" visible="true" weight="0.19536424" />
+      <window_info id="npm" order="3" sideWeight="0.16798419" side_tool="true" visible="true" weight="0.15587847" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -299,8 +325,8 @@
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5024834" side_tool="true" visible="true" weight="0.30487806" />
-      <window_info anchor="bottom" id="运行" order="11" sideWeight="0.49751654" visible="true" weight="0.30487806" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50264204" side_tool="true" visible="true" weight="0.28328612" />
+      <window_info anchor="bottom" id="运行" order="11" sideWeight="0.497358" visible="true" weight="0.28328612" />
       <window_info anchor="bottom" id="调试" order="12" />
       <window_info anchor="bottom" id="找到" order="13" />
       <window_info anchor="bottom" id="消息" order="14" sideWeight="0.4993395" weight="0.3286119" />
@@ -424,16 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/body/masking.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/body/content/content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-570">
@@ -497,8 +513,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/body/shanf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        <state relative-caret-position="171">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/swiper/swiper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="53" lean-forward="true" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/body/masking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="33" lean-forward="true" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
