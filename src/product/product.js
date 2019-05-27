@@ -15,15 +15,15 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn"><Link to="/home/body"> 立即购买 </Link></div>
-                    </div>
+                        <div className="btn"><Link to="/home/diq"> 立即购买 </Link></div>
+                </div>
                 </div>
                 <div className="product-list">
                     <img src={laba} alt="laba"/>
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn"><Link to="/home/body"> 立即购买 </Link></div>
+                        <div className="btn"><Link to="/home/laba"> 立即购买 </Link></div>
                     </div>
                 </div>
                 <div className="product-list">
@@ -31,7 +31,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn"><Link to="/home/body"> 立即购买 </Link></div>
+                        <div className="btn"><Link to="/home/qiche"> 立即购买 </Link></div>
                     </div>
                 </div>
                 <div className="product-list">
@@ -39,7 +39,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn"><Link to="/home/body"> 立即购买 </Link></div>
+                        <div className="btn"><Link to="/home/shanf"> 立即购买 </Link></div>
                     </div>
                 </div>
             </div>

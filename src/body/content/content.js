@@ -1,12 +1,17 @@
 import React from "react";
 import "./content.css"
-import Masking from "./masking.js"
+import Masking from "../masking.js"
 
 class Content extends React.Component {
     constructor(props) {
         super(props)
         this.state = {
-            sValue: '1'
+            num: '1',
+            class: '入门版',
+            time: '半年',
+            versions: '客户版',
+            money: '29',
+            show: 'none'
         }
     }
 
@@ -34,44 +39,56 @@ class Content extends React.Component {
                                 }}/>
                                 <input id="inp" type="text"
                                        onChange={(e) => {
-                                           this.setState({sValue: e.target.value})
+                                           this.setState({num: e.target.value})
+                                           this.myCount(e.target.value)
                                        }}
-                                       value={this.state.sValue}
+                                       value={this.state.num}
                                 />
                                 <input type="button" value="+" onClick={() => {
                                     this.fAdd()
                                 }}/></li>
-                            <li><input type="button" value="入门版" onClick={(e) => {
+                            <li><input type="button" value="入门版" className='back' onClick={(e) => {
+                                this.myClass(e)
                                 this.myClick(e)
                             }}/></li>
-                            <li><input type="button" value="半年" onClick={(e) => {
+                            <li><input type="button" value="半年" className='back' onClick={(e) => {
+                                this.myTime(e)
                                 this.mydel(e)
                                 this.myClick(e)
                             }}/><input type="button" value="一年" onClick={(e) => {
+                                this.myTime(e)
                                 this.mydel(e)
                                 this.myClick(e)
                             }}/><input type="button" value="三年" onClick={(e) => {
+                                this.myTime(e)
                                 this.mydel(e)
                                 this.myClick(e)
                             }}/>
                             </li>
-                            <li><input type="button" value="客户版" onClick={(e) => {
+                            <li><input type="button" value="客户版" className='back' onClick={(e) => {
+                                this.myVersions(e)
                                 this.mydel(e)
                                 this.myClick(e)
                             }}/><input type="button" value="代理商版" onClick={(e) => {
+                                this.myVersions(e)
                                 this.mydel(e)
                                 this.myClick(e)
                             }}/><input
                                 type="button" value="专家版" onClick={(e) => {
+                                this.myVersions(e)
                                 this.mydel(e)
                                 this.myClick(e)
                             }}/></li>
-                            <li>29元</li>
+                            <li>{this.state.money}元</li>
                         </ul>
                     </div>
-                    <button className="rButton back"> 立即购买</button>
+                    <button className="rButton back" onClick={(e) => {
+                        this.myShop(e)
+                    }}> 立即购买
+                    </button>
                 </div>
-                <Masking></Masking>
+                <div style={{display: this.state.show}}><Masking shop={this.state}
+                                                                 change={(e) => this.onChange(e)}></Masking></div>
                 <div className="content-bottom">
                     <h2>产品说明</h2>
                     <p>啊受打击啊啥的看哈数据库的哈就开始大家啊手机打开是打卡时间肯定会啊手机客户端金卡圣诞节卡是捷克的按时可见度</p>
@@ -84,6 +101,7 @@ class Content extends React.Component {
         )
     }
 
+    // class添加移除事件
     myClick(e) {
         if (e.target.className === 'back') {
             e.target.classList.remove("back")
@@ -92,24 +110,58 @@ class Content extends React.Component {
         }
     }
 
-    fRemove() {
-        let i = this.state.sValue;
-        i--;
-        this.setState({sValue: i})
-    }
-
-    fAdd() {
-        let i = this.state.sValue;
-        i++;
-        this.setState({sValue: i})
-    }
-
+    // 移除class事件
     mydel(e) {
         Array.from(e.target.parentNode.childNodes).map((item) => {
             item.classList.remove('back');
             return 0;
         })
-        return ;
+        return;
+    }
+
+    myClass(e) {
+        this.setState({class: e.target.value})
+    }
+
+    myTime(e) {
+        this.setState({time: e.target.value})
+    }
+
+    myVersions(e) {
+        this.setState({versions: e.target.value})
+    }
+
+    // 加事件
+    fRemove() {
+        let i = this.state.num;
+        i--;
+        this.setState({num: i})
+        this.myCount(i);
+    }
+
+    // 减事件
+    fAdd() {
+        let i = this.state.num;
+        i++;
+        this.setState({num: i});
+        this.myCount(i);
+    }
+
+    //计算数量事件
+    myCount(i) {
+        console.log(i);
+        this.setState({money: i * 29})
+    }
+
+    //弹框事件
+    myShop(e) {
+        this.setState({show: "block"})
+    }
+
+    //修改事件
+    onChange(e) {
+        console.log(e);
+        this.setState({show: e})
     }
 }
 

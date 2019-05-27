@@ -31,21 +31,12 @@ header {
     text-align: center;
 }
 
-.img {
-    width: 100px;
-    height: 80px;
-    line-height: 80px;
-    margin: auto;
-    color: white;
-    background: greenyellow;
-}
-
 ul {
     list-style: none;
 }
 
 .left-list > ul {
-    margin-top: 49px;
+    margin-top: 25px;
 }
 
 .left-list > ul > li {

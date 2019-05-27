@@ -1,14 +1,22 @@
 import React from "react";
 import "./body.css";
 import Content from './content/content'
+import shanf from "../img/shanf.png";
 
-class Body extends React.Component {
+class Shanf extends React.Component {
+    constructor(props){
+        super(props)
+        this.state={
+            list:''
+        }
+    }
+
     render() {
         return (
             <div className="body-main">
                 {/*左侧列表*/}
                 <div className="left-list">
-                    <div className="img">img</div>
+                    <img src={shanf} alt=""/>
                     <ul>
                         {/*路由跳转点*/}
                         <li>数据统计</li>
@@ -24,4 +32,4 @@ class Body extends React.Component {
     }
 }
 
-export default Body;
+export default Shanf;
