@@ -42,4 +42,8 @@
     line-height: 42px;
     border-radius: 5px;
 }
+.btn a{
+    color: #fff;
+    text-decoration: none;
+}
 
