@@ -78,13 +78,12 @@ class Myheader extends React.Component {
                         密码：<input type="password" value={this.state.psd} onChange={(e) => this.changePsd(e)}
                                   placeholder="请输入密码"/>
                     </div>
-                    <button onClick={() => this.setState({mask: "none"})}>返回</button>
-                    <button type="submit" onSubmit={() => this.checkVal()} style={{background: '#1E90FF'}}
+                    <button onClick={() => this.setState({mask: "none"})}>返回</button> <button type="submit" onSubmit={() => this.checkVal()} style={{background: '#1E90FF'}}
                             onClick={() => this.checkVal()}>确认
                     </button>
 
                 </div>
-                <div className="mask" style={{display: this .state.mask}}></div>
+                <div className="mask" style={{display: this.state.mask}}></div>
                 <div className="head">
                     <HashRouter>
                         <Link to="/home">
