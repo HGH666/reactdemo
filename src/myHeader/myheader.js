@@ -69,6 +69,11 @@ class Myheader extends React.Component {
             if (code === 13) {
                 this.checkVal()
             }
+            if (code === 27) {
+                this.setState({
+                    mask: 'none',
+                })
+            }
         })
     }
 

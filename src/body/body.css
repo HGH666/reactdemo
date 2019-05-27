@@ -38,6 +38,10 @@ ul {
 .left-list > ul {
     margin-top: 25px;
 }
+.left-list > ul>li>a {
+    display: block;
+}
+
 
 .left-list > ul > li {
     text-align: left;
