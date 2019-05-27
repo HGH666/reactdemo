@@ -26,7 +26,7 @@ class Laba extends React.Component {
                     <ul>
                         {/*路由跳转点*/}
 
-                        <li><Link to="/home/laba/数据统计">数据统计</Link></li>
+                        <li><Link to="/home/diq/数据统计">数据统计</Link></li>
                         <li className="a-class">数据预测</li>
                         <li><Link to="/home/qiche/流量分析">流量分析</Link></li>
                         <li><Link to="/home/shanf/广告发布">广告发布</Link></li>

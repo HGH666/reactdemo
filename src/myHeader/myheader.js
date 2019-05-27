@@ -1,7 +1,7 @@
 import logo from "../img/logo.svg";
 import React from "react";
 import './myheader.scss'
-import {HashRouter, Link, Route, Router} from 'react-router-dom';
+import {HashRouter, Link} from 'react-router-dom';
 
 class Myheader extends React.Component {
     constructor(props) {
@@ -36,7 +36,7 @@ class Myheader extends React.Component {
     }
 
     checkVal() {
-        if (this.state.user == "admin" && this.state.psd == "admin") {
+        if (this.state.user === "admin" && this.state.psd === "admin") {
             this.setState({
                 name: this.state.user,
                 abt: "注销",
@@ -44,6 +44,12 @@ class Myheader extends React.Component {
                 login: 'inline-block',
                 denglu: 'none',
             })
+        }else {
+            this.setState({
+                user: '',
+                psd: '',
+            })
+            alert("请输入正确用户名和密码")
         }
     }
 
@@ -60,7 +66,7 @@ class Myheader extends React.Component {
         this.refs.login.addEventListener('keydown', (e) => {
             var theEvent = window.event || e;
             var code = theEvent.keyCode || theEvent.which || theEvent.charCode;
-            if (code == 13) {
+            if (code === 13) {
                 this.checkVal()
             }
         })

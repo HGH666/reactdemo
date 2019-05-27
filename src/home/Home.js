@@ -8,7 +8,7 @@ function Home() {
         <div className="home">
             <Myheader/>
             <Router/>
-            <footer>Hgh & Yang联合出品</footer>
+            <footer>Hgh & Yang 联合出品</footer>
         </div>
     )
 }
