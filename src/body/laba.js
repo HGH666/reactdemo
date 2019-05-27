@@ -2,12 +2,13 @@ import React from "react";
 import "./body.css";
 import Content from './content/content'
 import laba from "../img/laba.png";
+import {Link} from "react-router-dom";
 
 class Laba extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
-        this.state={
-            list:''
+        this.state = {
+            list: ''
         }
     }
 
@@ -19,10 +20,10 @@ class Laba extends React.Component {
                     <img src={laba} alt=""/>
                     <ul>
                         {/*路由跳转点*/}
-                        <li>数据统计</li>
-                        <li>数据预测</li>
-                        <li>流量分析</li>
-                        <li>广告发布</li>
+                        <li><Link to="/home/diq">数据统计</Link></li>
+                        <li className="a-class">数据预测</li>
+                        <li><Link to="/home/qiche">流量分析</Link></li>
+                        <li><Link to="/home/shanf">广告发布</Link></li>
                     </ul>
                 </div>
                 {/*组件*/}

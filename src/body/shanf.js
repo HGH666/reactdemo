@@ -2,6 +2,7 @@ import React from "react";
 import "./body.css";
 import Content from './content/content'
 import shanf from "../img/shanf.png";
+import {Link} from "react-router-dom";
 
 class Shanf extends React.Component {
     constructor(props){
@@ -19,10 +20,10 @@ class Shanf extends React.Component {
                     <img src={shanf} alt=""/>
                     <ul>
                         {/*路由跳转点*/}
-                        <li>数据统计</li>
-                        <li>数据预测</li>
-                        <li>流量分析</li>
-                        <li>广告发布</li>
+                        <li><Link to="/home/diq">数据统计</Link></li>
+                        <li><Link to="/home/laba">数据预测</Link></li>
+                        <li><Link to="/home/qiche">流量分析</Link></li>
+                        <li className="a-class">广告发布</li>
                     </ul>
                 </div>
                 {/*组件*/}
