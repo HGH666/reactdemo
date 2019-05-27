@@ -19,7 +19,7 @@ class Content extends React.Component {
         return (
             <div className="content">
                 <div className="content-top">
-                    <h2>流量分析</h2>
+                    <h2>{this.props.name}</h2>
                     <p>
                         的撒旦就卡死贷记卡是多久啊是大家哈十九点贷记卡上帝把杀手看见大家按时打卡是国际大师大事感到骄傲很少看见哈伺机待发计划的发几款和发动机卡刷卡
                         的撒旦就卡死贷记卡是多久啊是大家哈十九点贷记卡上帝把杀手看见大家按时打卡是国际大师大事感到骄傲很少看见哈伺机待发计划的发几款和发动机卡刷卡

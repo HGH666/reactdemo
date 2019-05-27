@@ -8,8 +8,13 @@ class Shanf extends React.Component {
     constructor(props){
         super(props)
         this.state={
-            list:''
+            list:'',
+            name:''
         }
+    }
+
+    componentWillMount() {
+        this.setState({name:this.props.match.params.name})
     }
 
     render() {
@@ -20,14 +25,14 @@ class Shanf extends React.Component {
                     <img src={shanf} alt=""/>
                     <ul>
                         {/*路由跳转点*/}
-                        <li><Link to="/home/diq">数据统计</Link></li>
-                        <li><Link to="/home/laba">数据预测</Link></li>
-                        <li><Link to="/home/qiche">流量分析</Link></li>
+                        <li><Link to="/home/laba/数据统计">数据统计</Link></li>
+                        <li><Link to="/home/laba/数据预测">数据预测</Link></li>
+                        <li><Link to="/home/qiche/流量分析">流量分析</Link></li>
                         <li className="a-class">广告发布</li>
                     </ul>
                 </div>
                 {/*组件*/}
-                <Content></Content>
+                <Content name={this.state.name}></Content>
             </div>
         );
     }

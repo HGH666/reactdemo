@@ -5,11 +5,16 @@ import qiche from "../img/qiche.png";
 import {Link} from "react-router-dom";
 
 class Qiche extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
-        this.state={
-            list:''
+        this.state = {
+            list: '',
+            name:''
         }
+    }
+
+    componentWillMount() {
+        this.setState({name:this.props.match.params.name})
     }
 
     render() {
@@ -20,14 +25,14 @@ class Qiche extends React.Component {
                     <img src={qiche} alt=""/>
                     <ul>
                         {/*路由跳转点*/}
-                        <li><Link to="/home/diq">数据统计</Link></li>
-                        <li><Link to="/home/laba">数据预测</Link></li>
+                        <li><Link to="/home/laba/数据统计">数据统计</Link></li>
+                        <li><Link to="/home/laba/数据预测">数据预测</Link></li>
                         <li className="a-class">流量分析</li>
-                        <li><Link to="/home/shanf">广告发布</Link></li>
+                        <li><Link to="/home/shanf/广告发布">广告发布</Link></li>
                     </ul>
                 </div>
                 {/*组件*/}
-                <Content></Content>
+                <Content name={this.state.name}></Content>
             </div>
         );
     }

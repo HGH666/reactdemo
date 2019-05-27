@@ -10,10 +10,10 @@ const BasicRoute = () => (
     <HashRouter>
         <Switch>
             <Route path='/home/main' component={Main}></Route>
-            <Route path='/home/diq/' component={Diq}></Route>
-            <Route path='/home/laba/' component={Laba}></Route>
-            <Route path='/home/qiche/' component={Qiche}></Route>
-            <Route path='/home/shanf/' component={Shanf}></Route>
+            <Route path='/home/diq/:name' component={Diq}></Route>
+            <Route path='/home/laba/:name' component={Laba}></Route>
+            <Route path='/home/qiche/:name' component={Qiche}></Route>
+            <Route path='/home/shanf/:name' component={Shanf}></Route>
             <Redirect to="/home/main" />
         </Switch>
     </HashRouter>

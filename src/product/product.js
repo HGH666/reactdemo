@@ -15,7 +15,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn"><Link to="/home/diq"> 立即购买 </Link></div>
+                        <div className="btn"><Link to="/home/diq/数据统计"> 立即购买 </Link></div>
                 </div>
                 </div>
                 <div className="product-list">
@@ -23,7 +23,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn"><Link to="/home/laba"> 立即购买 </Link></div>
+                        <div className="btn"><Link to="/home/laba/数据预测"> 立即购买 </Link></div>
                     </div>
                 </div>
                 <div className="product-list">
@@ -31,7 +31,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn"><Link to="/home/qiche"> 立即购买 </Link></div>
+                        <div className="btn"><Link to="/home/qiche/流量分析"> 立即购买 </Link></div>
                     </div>
                 </div>
                 <div className="product-list">
@@ -39,7 +39,7 @@ class Product extends React.Component{
                     <div className="product-right">
                         <h1>会计师</h1>
                         <p>啊可是大家放假啊贷款发放就</p>
-                        <div className="btn"><Link to="/home/shanf"> 立即购买 </Link></div>
+                        <div className="btn"><Link to="/home/shanf/广告发布"> 立即购买 </Link></div>
                     </div>
                 </div>
             </div>
